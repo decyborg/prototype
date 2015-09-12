@@ -1,0 +1,39 @@
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+[DebugChecksum]
+Checksum=1195710394
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=993075258
+Graph=0
+Symbiont=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Count=0
+[Aliases]
+A0=_ "D:\Profiles\b33288\Desktop\Freescale\Kinetis\K53_Board_Developments\MED_EKG_USB_STACK_3.0_K53\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\dsp.s" ""
+A1=_ "D:\Profiles\b33288\Desktop\Freescale\Kinetis\K53_Board_Developments\MED_EKG_USB_STACK_3.0_K53\app\common\main_kinetis.c" ""
+Count=2
+SuppressDialog=0

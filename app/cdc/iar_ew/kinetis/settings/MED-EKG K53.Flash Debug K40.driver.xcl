@@ -1,0 +1,27 @@
+ -B 
+
+"--endian=little" 
+
+"--cpu=Cortex-M4" 
+
+"--fpu=None" 
+
+"-p" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\Freescale\MK40DX256Zxxx10.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=MK40DX256Zxxx10" 
+
+"--pemicro_interface_type=OSJtag" 
+
+"--pemicro_reset_delay=" 
+
+"--drv_communication=USB1" 
+
+
+
+
