@@ -2,70 +2,10 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>4242723527</fileChecksum>
+  <fileChecksum>332280779</fileChecksum>
   <configuration>
     <name>Flash Debug K40</name>
     <outputs>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Ecg.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_devapi.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\AverageFilter.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\EcgDsc.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\main_kinetis.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\main_kinetis.pbi</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\RealTimerCounter_kinetis.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_class.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_cdc_pstn.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_cdc.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\wdt_kinetis.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_descriptor.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_dci_kinetis.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\OPAMP.pbi</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\low_level_init.pbi</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Exe\MED-EKG K53.out</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\MED-EKG K53.pbd</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\List\MED-EKG K53.map</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_bdt_kinetis.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
-      <file>$TOOLKIT_DIR$\inc\Freescale\MK40X256VMD100.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\ekg.o</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_framework.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_driver.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\MK53N512CMD100.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-      <file>$PROJ_DIR$\..\..\user_config.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\types.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\RealTimerCounter.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.h</file>
-      <file>$PROJ_DIR$\derivative.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dciapi.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\DAC.pbi</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\ADC.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\IICV1Driver.pbi</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\RealTimerCounter_kinetis.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\hidef.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
       <file>$PROJ_DIR$\..\..\usb_descriptor.c</file>
       <file>$PROJ_DIR$\..\..\..\common\main_kinetis.c</file>
       <file>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</file>
@@ -76,40 +16,43 @@
       <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</file>
       <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</file>
       <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\ECG.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\PublicTypes.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\TWR_K50_UI.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\SerialCommands.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1HAL_K50.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.h</file>
-      <file>$PROJ_DIR$\config\MK40N512VMD100_Flash.icf</file>
-      <file>$PROJ_DIR$\cstartup_M.s</file>
-      <file>$PROJ_DIR$\low_level_init.c</file>
-      <file>$PROJ_DIR$\readme.txt</file>
-      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Kinetis_FIR.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_bdt_kinetis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\Freescale\MK40X256VMD100.h</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\ekg.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_framework.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_driver.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\MK53N512CMD100.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\RealTimerCounter.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\DAC.pbi</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\ADC.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\RealTimerCounter_kinetis.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\IICV1Driver.pbi</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\HeartRate.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\hidef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Kinetis_FIR.o</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Kinetis_FTM.o</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\low_level_init.o</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\cstartup_M.o</file>
@@ -133,42 +76,91 @@
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\ekg.pbi</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Kinetis_FIR.pbi</file>
       <file>$PROJ_DIR$\Flash_Debug_K40\Obj\AverageFilter.pbi</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\ECG.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\PublicTypes.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\SerialCommands.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\TWR_K50_UI.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1HAL_K50.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.h</file>
+      <file>$PROJ_DIR$\config\MK40N512VMD100_Flash.icf</file>
+      <file>$PROJ_DIR$\config\MK40N512VMD100_RAM.icf</file>
+      <file>$PROJ_DIR$\cstartup_M.s</file>
+      <file>$PROJ_DIR$\low_level_init.c</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_devapi.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\Ecg.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\AverageFilter.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\main_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_cdc_pstn.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_class.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\RealTimerCounter_kinetis.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\main_kinetis.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\EcgDsc.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_cdc.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\wdt_kinetis.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\usb_dci_kinetis.o</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\OPAMP.pbi</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\low_level_init.pbi</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Exe\MED-EKG K53.out</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\MED-EKG K53.pbd</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\List\MED-EKG K53.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\K53_example_code\UART\Project_Headers\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\K53_example_code\UART\Sources\uart.c</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\uart.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\uart.c</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Flash_Debug_K40\Obj\uart.o</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\Flash_Debug_K40\Exe\MED-EKG K53.out</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 18</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 98 111 2 106 110 107 0 3 32 103 109 102 104 105 4 108 7 10 9 8 13 12 35 33 11 37 22 28 21</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\..\..\usb_descriptor.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 112</file>
+          <name>ICCARM</name>
+          <file> 115</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 12</file>
+          <name>BICOMP</name>
+          <file> 55</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 54 20 48 39 29 41 43 27 45 59 52 36 38 40 23 1 58 44 34</file>
+          <name>ICCARM</name>
+          <file> 27 22 40 11 23 29 124 26 126 24 37 103 44 45 33 25 20 30 15</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 45 36 54 27 38 43 20 40 23 41 52 1 58 59 48 39 34 44 29</file>
+          <name>BICOMP</name>
+          <file> 40 124 33 25 15 24 29 11 27 45 37 22 23 26 126 103 44 30 20</file>
         </tool>
       </inputs>
     </file>
@@ -176,22 +168,22 @@
       <name>$PROJ_DIR$\..\..\..\common\main_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 6</file>
+          <name>ICCARM</name>
+          <file> 111</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 4</file>
+          <name>BICOMP</name>
+          <file> 106</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 36 38 47 44 27 40 23 54 39 48 46 87 41 43 20 34 45</file>
+          <name>ICCARM</name>
+          <file> 27 22 40 11 23 29 124 26 126 24 33 25 20 30 31 32 88 130</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 45 36 54 27 38 43 20 40 23 41 48 39 34 44 46 47 87</file>
+          <name>BICOMP</name>
+          <file> 24 32 40 29 11 30 130 124 20 33 31 88 22 23 26 126 25 27</file>
         </tool>
       </inputs>
     </file>
@@ -199,22 +191,22 @@
       <name>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 56</file>
+          <name>ICCARM</name>
+          <file> 110</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 7</file>
+          <name>BICOMP</name>
+          <file> 39</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 54 43 46 48 27 20 39 41 44 45 5 38 40 23 34 24 36</file>
+          <name>ICCARM</name>
+          <file> 127 40 11 23 29 124 26 126 24 109 30 33 25 20 27 22 31</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 24 54 27 38 43 20 40 23 41 5 44 48 39 34 45 36 46</file>
+          <name>BICOMP</name>
+          <file> 40 29 31 33 11 124 25 24 30 27 109 23 26 126 20 127 22</file>
         </tool>
       </inputs>
     </file>
@@ -222,22 +214,22 @@
       <name>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 113</file>
+          <name>ICCARM</name>
+          <file> 114</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 11</file>
+          <name>BICOMP</name>
+          <file> 56</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 40 23 27 54 39 47 36 38 48 41 43 20 34 45</file>
+          <name>ICCARM</name>
+          <file> 27 22 40 11 23 29 124 26 126 24 33 25 20 32</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 45 36 54 27 38 43 20 40 23 41 48 39 34 47</file>
+          <name>BICOMP</name>
+          <file> 26 126 11 40 25 32 22 23 33 24 29 124 20 27</file>
         </tool>
       </inputs>
     </file>
@@ -245,22 +237,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 114</file>
+          <name>ICCARM</name>
+          <file> 113</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 10</file>
+          <name>BICOMP</name>
+          <file> 57</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 43 54 27 45 58 1 41 52 20 44 29 31 36 38 40 23 48 59 34 19 39</file>
+          <name>ICCARM</name>
+          <file> 122 27 22 40 11 23 29 124 26 126 24 15 37 103 44 45 33 25 20 30 16</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 19 45 36 54 27 38 43 20 40 23 41 29 52 1 58 59 48 39 34 44 31</file>
+          <name>BICOMP</name>
+          <file> 29 40 11 27 44 103 24 37 124 30 15 16 22 23 26 126 33 45 20 122 25</file>
         </tool>
       </inputs>
     </file>
@@ -268,22 +260,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 115</file>
+          <name>ICCARM</name>
+          <file> 107</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 9</file>
+          <name>BICOMP</name>
+          <file> 58</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 54 19 52 20 44 45 1 41 43 27 58 34 29 31 36 38 40 23 48 59 39</file>
+          <name>ICCARM</name>
+          <file> 16 122 27 22 40 11 23 29 124 26 126 24 15 37 103 44 45 33 25 20 30</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 31 19 45 36 54 27 38 43 20 40 23 41 29 52 1 58 59 48 39 34 44</file>
+          <name>BICOMP</name>
+          <file> 40 122 37 124 30 27 103 24 29 11 44 20 15 16 22 23 26 126 33 45 25</file>
         </tool>
       </inputs>
     </file>
@@ -291,22 +283,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 116</file>
+          <name>ICCARM</name>
+          <file> 108</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 8</file>
+          <name>BICOMP</name>
+          <file> 59</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 45 34 36 38 58 53 27 40 23 54 44 1 41 43 20 48 59 39 29 52</file>
+          <name>ICCARM</name>
+          <file> 37 27 22 40 11 23 29 124 26 126 24 103 44 45 33 25 20 30 38 15</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 52 45 36 54 27 38 43 20 40 23 41 1 58 59 48 39 34 44 53 29</file>
+          <name>BICOMP</name>
+          <file> 27 20 22 23 44 38 11 26 126 40 30 103 24 29 124 33 45 25 15 37</file>
         </tool>
       </inputs>
     </file>
@@ -314,22 +306,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 118</file>
+          <name>ICCARM</name>
+          <file> 21</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 35</file>
+          <name>BICOMP</name>
+          <file> 61</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 54 20 1 45 34 48 41 43 27 49 58 44 36 38 40 23 59 39</file>
+          <name>ICCARM</name>
+          <file> 103 27 22 40 11 23 29 124 26 126 24 44 45 33 25 20 30 34</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 1 45 36 54 27 38 43 20 40 23 41 58 59 48 39 34 44 49</file>
+          <name>BICOMP</name>
+          <file> 40 124 103 27 20 33 24 29 11 34 44 30 22 23 26 126 45 25</file>
         </tool>
       </inputs>
     </file>
@@ -337,22 +329,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 117</file>
+          <name>ICCARM</name>
+          <file> 116</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 13</file>
+          <name>BICOMP</name>
+          <file> 60</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 36 20 1 44 25 27 54 45 43 58 39 49 42 41 5 38 40 23 48 59 24 34</file>
+          <name>ICCARM</name>
+          <file> 127 40 11 23 29 124 26 126 24 109 34 27 22 103 44 45 33 25 20 30 28 10</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 24 54 27 38 43 20 40 23 41 5 49 45 36 1 58 59 48 39 34 44 42 25</file>
+          <name>BICOMP</name>
+          <file> 22 124 103 30 10 11 40 27 29 44 25 34 28 24 109 23 26 126 33 45 127 20</file>
         </tool>
       </inputs>
     </file>
@@ -360,316 +352,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 120</file>
+          <name>ICCARM</name>
+          <file> 18</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 33</file>
+          <name>BICOMP</name>
+          <file> 63</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 38 36 45 59 27 54 53 24 40 23 48 39 52 29 41 43 20 1 58 44 34 5</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 45 36 54 27 38 43 20 40 23 41 52 1 58 59 48 39 34 44 53 29 24 5</file>
+          <file> 27 22 40 11 23 29 124 26 126 24 37 103 44 45 33 25 20 30 38 15 127 109</file>
         </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</name>
-      <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 126</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 2</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 34 48 38 86 39 54 40 23 27 71 43 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 71 48 39 34 54 27 38 43 20 40 23 86</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 107</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 121</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 90 34 36 20 86 41 48 46 54 71 92 39 27 43 44 75 38 40 23 45</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 75 48 39 34 54 27 38 43 20 40 23 86 90 71 46 45 36 41 44 92</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 122</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 39 46 41 20 36 86 54 45 48 94 34 27 43 44 77 38 40 23 95</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 77 48 39 34 54 27 38 43 20 40 23 86 94 45 36 41 95 46 44</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 124</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 32</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 92 19 39 90 75 48 88 27 54 43 45 59 83 26 29 52 86 79 97 77 87 85 34 20 41 31 94 46 81 38 40 23 36 1 58 44 95 71 72 57</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 48 39 34 54 27 38 43 20 40 23 45 36 41 19 29 52 1 58 59 44 31 79 88 86 97 92 77 94 95 46 75 90 71 87 83 72 81 85 26 57</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 123</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 103</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 81 41 48 36 83 92 39 38 86 97 72 45 34 54 40 23 27 43 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 81 86 83 48 39 34 54 27 38 43 20 40 23 72 92 45 36 41 97</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 125</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 102</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27 54 23 72 34 40 45 86 48 92 81 39 38 83 43 20 36 41</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 83 48 39 34 54 27 38 43 20 40 23 72 92 86 45 36 41 81</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 119</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 104</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 39 20 48 34 27 43 85 38 40 23</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 85 48 39 34 54 27 38 43 20 40 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 51</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 111</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 48 38 39 86 34 54 40 23 27 90 43 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 90 48 39 34 54 27 38 43 20 40 23 86</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 50</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 110</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 34 38 86 48 39 54 40 23 27 92 43 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 92 48 39 34 54 27 38 43 20 40 23 86</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 55</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 109</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 86 27 95 20 41 43 48 34 45 36 38 40 23 39 94</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 94 45 36 54 27 38 43 20 40 23 41 95 48 39 34 86</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 14</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 108</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 48 34 38 86 39 54 40 23 27 97 43 20</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 48 39 34 54 27 38 43 20 40 23 86</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\cstartup_M.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 106</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\low_level_init.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 15</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 105</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54 20 34 27 43 30 38 40 23</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 30 34 54 27 38 43 20 40 23</file>
+          <file> 23 22 27 45 11 40 38 127 26 126 33 25 37 15 24 29 124 103 44 30 20 109</file>
         </tool>
       </inputs>
     </file>
@@ -678,29 +376,403 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 16 18</file>
+          <file> 119 121</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 33 25 20 40 11 23 29 124 26 126 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 33 23 86 25 40 26 126 11 71 29 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 33 25 20 40 11 23 29 124 26 126 86 90 71 31 27 22 24 30 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 20 22 124 86 24 33 31 40 71 92 25 11 29 30 75 23 26 126 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 33 25 20 40 11 23 29 124 26 126 86 94 27 22 24 95 31 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 31 24 124 22 86 40 27 33 94 20 11 29 30 77 23 26 126 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 25 20 40 11 23 29 124 26 126 27 22 24 122 15 37 103 44 45 30 16 79 87 86 97 92 77 94 95 31 75 90 71 88 83 72 81 85 12 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 122 25 90 75 33 87 11 40 29 27 45 83 12 15 37 86 79 97 77 88 85 20 124 24 16 94 31 81 23 26 126 22 103 44 30 95 71 72 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 86 83 33 25 20 40 11 23 29 124 26 126 72 92 27 22 24 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 24 33 22 83 92 25 23 86 97 72 27 20 40 26 126 11 29 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 33 25 20 40 11 23 29 124 26 126 72 92 86 27 22 24 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 40 126 72 20 26 27 86 33 92 81 25 23 83 29 124 22 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 33 25 20 40 11 23 29 124 26 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 25 124 33 20 11 29 85 23 26 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 33 25 20 40 11 23 29 124 26 126 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 23 25 86 20 40 26 126 11 90 29 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92 33 25 20 40 11 23 29 124 26 126 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 23 86 33 25 40 26 126 11 92 29 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 27 22 40 11 23 29 124 26 126 24 95 33 25 20 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 86 11 95 124 24 29 33 20 27 22 23 26 126 25 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 33 25 20 40 11 23 29 124 26 126 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 20 23 86 25 40 26 126 11 97 29 124</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 20 40 11 23 29 124 26 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 124 20 11 29 14 23 26 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash_Debug_K40\Exe\MED-EKG K53.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 98 54 105 49 53 50 104 112 17 42 52 46 47 48 111 51 110 133 113 107 108 116 115 21 18 114 19 125 13 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\K53_example_code\UART\Sources\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 25 20 40 11 23 29 124 26 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 25 124 20 11 29 33 23 26 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 25 20 40 11 23 29 124 26 126 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 40 29 25 130 20 124 33 23 26 126</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>
     <name>RAM Debug K40</name>
     <outputs>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_devapi.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\main_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</file>
       <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_bdt_kinetis.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
       <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
       <file>$TOOLKIT_DIR$\inc\Freescale\MK40X256VMD100.h</file>
+      <file>$PROJ_DIR$\..\..\usb_descriptor.h</file>
       <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\MK53N512CMD100.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\RealTimerCounter.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\kinetis\hidef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\low_level_init.o</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\usb_cdc_pstn.pbi</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Exe\MED-EKG K53.out</file>
@@ -742,44 +814,13 @@
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\usb_descriptor.pbi</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\usb_class.o</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\HeartRate.o</file>
-      <file>$PROJ_DIR$\RAM_Debug_K40\Obj\RealTimerCounter_kinetis.pbi</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\RAM_Debug_K40\Obj\RealTimerCounter_kinetis.pbi</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\AverageFilter.o</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\main_kinetis.o</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\HeartRate.pbi</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\ADC.o</file>
       <file>$PROJ_DIR$\RAM_Debug_K40\Obj\usb_framework.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\MK53N512CMD100.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-      <file>$PROJ_DIR$\..\..\user_config.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\types.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\RealTimerCounter.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.h</file>
-      <file>$PROJ_DIR$\derivative.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dciapi.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\hidef.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$PROJ_DIR$\..\..\usb_descriptor.c</file>
-      <file>$PROJ_DIR$\..\..\..\common\main_kinetis.c</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</file>
-      <file>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.h</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.h</file>
@@ -797,8 +838,8 @@
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.h</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\PublicTypes.h</file>
-      <file>$PROJ_DIR$\MED_EKG_FILES\APP\TWR_K50_UI.h</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\SerialCommands.h</file>
+      <file>$PROJ_DIR$\MED_EKG_FILES\APP\TWR_K50_UI.h</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.h</file>
       <file>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</file>
@@ -811,42 +852,35 @@
       <file>$PROJ_DIR$\config\MK40N512VMD100_RAM.icf</file>
       <file>$PROJ_DIR$\cstartup_M.s</file>
       <file>$PROJ_DIR$\low_level_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\driver\usb_devapi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\RAM_Debug_K40\Exe\MED-EKG K53.out</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 35</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 122 61 58 40 20 31 55 21 51 29 42 18 30 34 41 15 59 36 37 54 23 26 44 62 19 65 5 11 4</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\..\..\usb_descriptor.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 53</file>
+          <name>ICCARM</name>
+          <file> 49</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 26</file>
+          <name>BICOMP</name>
+          <file> 76</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 78 0 82 83 76 67 63 72 12</file>
+          <name>ICCARM</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 32 117 36 37 30 22 18 27 15</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 78 0 82 83 76 67 63 72 12</file>
+          <name>BICOMP</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 32 117 36 37 30 22 18 27 15</file>
         </tool>
       </inputs>
     </file>
@@ -854,22 +888,22 @@
       <name>$PROJ_DIR$\..\..\..\common\main_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 49</file>
+          <name>ICCARM</name>
+          <file> 82</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 59</file>
+          <name>BICOMP</name>
+          <file> 72</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 76 67 63 72 74 75 111</file>
+          <name>ICCARM</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 30 22 18 27 28 29 104</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 76 67 63 72 74 75 111</file>
+          <name>BICOMP</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 30 22 18 27 28 29 104</file>
         </tool>
       </inputs>
     </file>
@@ -877,22 +911,22 @@
       <name>$PROJ_DIR$\..\..\..\common\kinetis\RealTimerCounter_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 56</file>
+          <name>ICCARM</name>
+          <file> 41</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 18</file>
+          <name>BICOMP</name>
+          <file> 80</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 80 10 66 71 3 68 6 69 1 72 76 67 63 73 64 74</file>
+          <name>ICCARM</name>
+          <file> 124 34 11 20 26 121 23 123 21 118 27 30 22 18 24 19 28</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 7 80 10 66 71 3 68 6 69 1 72 76 67 63 73 64 74</file>
+          <name>BICOMP</name>
+          <file> 124 34 11 20 26 121 23 123 21 118 27 30 22 18 24 19 28</file>
         </tool>
       </inputs>
     </file>
@@ -900,22 +934,22 @@
       <name>$PROJ_DIR$\..\..\..\common\kinetis\wdt_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 39</file>
+          <name>ICCARM</name>
+          <file> 42</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 19</file>
+          <name>BICOMP</name>
+          <file> 62</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 76 67 63 75</file>
+          <name>ICCARM</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 30 22 18 29</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 76 67 63 75</file>
+          <name>BICOMP</name>
+          <file> 24 19 34 11 20 26 121 23 123 21 30 22 18 29</file>
         </tool>
       </inputs>
     </file>
@@ -923,22 +957,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 43</file>
+          <name>ICCARM</name>
+          <file> 59</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 36</file>
+          <name>BICOMP</name>
+          <file> 66</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 2 73 64 80 10 66 71 3 68 6 69 12 78 0 82 83 76 67 63 72 14</file>
+          <name>ICCARM</name>
+          <file> 119 24 19 34 11 20 26 121 23 123 21 15 32 117 36 37 30 22 18 27 16</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 2 73 64 80 10 66 71 3 68 6 69 12 78 0 82 83 76 67 63 72 14</file>
+          <name>BICOMP</name>
+          <file> 119 24 19 34 11 20 26 121 23 123 21 15 32 117 36 37 30 22 18 27 16</file>
         </tool>
       </inputs>
     </file>
@@ -946,22 +980,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\class\usb_cdc_pstn.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 16</file>
+          <name>ICCARM</name>
+          <file> 60</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 37</file>
+          <name>BICOMP</name>
+          <file> 39</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 14 2 73 64 80 10 66 71 3 68 6 69 12 78 0 82 83 76 67 63 72</file>
+          <name>ICCARM</name>
+          <file> 16 119 24 19 34 11 20 26 121 23 123 21 15 32 117 36 37 30 22 18 27</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 14 2 73 64 80 10 66 71 3 68 6 69 12 78 0 82 83 76 67 63 72</file>
+          <name>BICOMP</name>
+          <file> 16 119 24 19 34 11 20 26 121 23 123 21 15 32 117 36 37 30 22 18 27</file>
         </tool>
       </inputs>
     </file>
@@ -969,22 +1003,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\common\usb_class.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 45</file>
+          <name>ICCARM</name>
+          <file> 77</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 54</file>
+          <name>BICOMP</name>
+          <file> 68</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 78 73 64 80 10 66 71 3 68 6 69 0 82 83 76 67 63 72 79 12</file>
+          <name>ICCARM</name>
+          <file> 32 24 19 34 11 20 26 121 23 123 21 117 36 37 30 22 18 27 33 15</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 78 73 64 80 10 66 71 3 68 6 69 0 82 83 76 67 63 72 79 12</file>
+          <name>BICOMP</name>
+          <file> 32 24 19 34 11 20 26 121 23 123 21 117 36 37 30 22 18 27 33 15</file>
         </tool>
       </inputs>
     </file>
@@ -992,22 +1026,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\driver\usb_driver.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 24</file>
+          <name>ICCARM</name>
+          <file> 67</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 44</file>
+          <name>BICOMP</name>
+          <file> 47</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 0 73 64 80 10 66 71 3 68 6 69 82 83 76 67 63 72 77</file>
+          <name>ICCARM</name>
+          <file> 117 24 19 34 11 20 26 121 23 123 21 36 37 30 22 18 27 31</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 0 73 64 80 10 66 71 3 68 6 69 82 83 76 67 63 72 77</file>
+          <name>BICOMP</name>
+          <file> 117 24 19 34 11 20 26 121 23 123 21 36 37 30 22 18 27 31</file>
         </tool>
       </inputs>
     </file>
@@ -1015,22 +1049,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\driver\kinetis\usb_dci_kinetis.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 48</file>
+          <name>ICCARM</name>
+          <file> 46</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 23</file>
+          <name>BICOMP</name>
+          <file> 71</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 80 10 66 71 3 68 6 69 1 77 73 64 0 82 83 76 67 63 72 70 8</file>
+          <name>ICCARM</name>
+          <file> 124 34 11 20 26 121 23 123 21 118 31 24 19 117 36 37 30 22 18 27 25 10</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 7 80 10 66 71 3 68 6 69 1 77 73 64 0 82 83 76 67 63 72 70 8</file>
+          <name>BICOMP</name>
+          <file> 124 34 11 20 26 121 23 123 21 118 31 24 19 117 36 37 30 22 18 27 25 10</file>
         </tool>
       </inputs>
     </file>
@@ -1038,316 +1072,22 @@
       <name>$PROJ_DIR$\..\..\..\..\source\common\usb_framework.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 57</file>
+          <name>ICCARM</name>
+          <file> 85</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 62</file>
+          <name>BICOMP</name>
+          <file> 79</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 78 0 82 83 76 67 63 72 79 12 7 1</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 73 64 80 10 66 71 3 68 6 69 78 0 82 83 76 67 63 72 79 12 7 1</file>
+          <file> 24 19 34 11 20 26 121 23 123 21 32 117 36 37 30 22 18 27 33 15 124 118</file>
         </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</name>
-      <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 33</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 58</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 95 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 95 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 34</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 20</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 99 76 67 63 80 10 66 71 3 68 6 110 114 95 74 73 64 69 72 116</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 99 76 67 63 80 10 66 71 3 68 6 110 114 95 74 73 64 69 72 116</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 50</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 31</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 101 76 67 63 80 10 66 71 3 68 6 110 118 73 64 69 119 74 72</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 101 76 67 63 80 10 66 71 3 68 6 110 118 73 64 69 119 74 72</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 41</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 76 67 63 80 10 66 71 3 68 6 73 64 69 2 12 78 0 82 83 72 14 103 112 110 121 116 101 118 119 74 99 114 95 111 107 96 105 109 9 81</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 76 67 63 80 10 66 71 3 68 6 73 64 69 2 12 78 0 82 83 72 14 103 112 110 121 116 101 118 119 74 99 114 95 111 107 96 105 109 9 81</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 60</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 55</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 105 110 107 76 67 63 80 10 66 71 3 68 6 96 116 73 64 69 121</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 105 110 107 76 67 63 80 10 66 71 3 68 6 96 116 73 64 69 121</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 38</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 51</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 107 76 67 63 80 10 66 71 3 68 6 96 116 110 73 64 69 105</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 107 76 67 63 80 10 66 71 3 68 6 96 116 110 73 64 69 105</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 25</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 29</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 109 76 67 63 80 10 66 71 3 68 6</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 109 76 67 63 80 10 66 71 3 68 6</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 32</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 114 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 114 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 22</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 40</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 116 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 116 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 46</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 21</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 118 73 64 80 10 66 71 3 68 6 69 119 76 67 63 110</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 118 73 64 80 10 66 71 3 68 6 69 119 76 67 63 110</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 28</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 42</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 121 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 121 76 67 63 80 10 66 71 3 68 6 110</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\cstartup_M.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 30</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\low_level_init.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 52</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 15</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 13 63 80 10 66 71 3 68 6</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 13 63 80 10 66 71 3 68 6</file>
+          <file> 24 19 34 11 20 26 121 23 123 21 32 117 36 37 30 22 18 27 33 15 124 118</file>
         </tool>
       </inputs>
     </file>
@@ -1356,9 +1096,318 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 35 17</file>
+          <file> 58 40</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RAM_Debug_K40\Exe\MED-EKG K53.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 114 84 81 63 43 54 78 44 74 52 65 41 53 57 64 38 82 59 60 77 46 49 67 85 42 17 122 13 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 30 22 18 34 11 20 26 121 23 123 102 106 87 28 24 19 21 27 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 30 22 18 34 11 20 26 121 23 123 102 106 87 28 24 19 21 27 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 30 22 18 34 11 20 26 121 23 123 102 110 24 19 21 111 28 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 30 22 18 34 11 20 26 121 23 123 102 110 24 19 21 111 28 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 22 18 34 11 20 26 121 23 123 24 19 21 119 15 32 117 36 37 27 16 95 103 102 113 108 93 110 111 28 91 106 87 104 99 88 97 101 12 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 22 18 34 11 20 26 121 23 123 24 19 21 119 15 32 117 36 37 27 16 95 103 102 113 108 93 110 111 28 91 106 87 104 99 88 97 101 12 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\HeartRate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 102 99 30 22 18 34 11 20 26 121 23 123 88 108 24 19 21 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 102 99 30 22 18 34 11 20 26 121 23 123 88 108 24 19 21 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FIR.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 30 22 18 34 11 20 26 121 23 123 88 108 102 24 19 21 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 30 22 18 34 11 20 26 121 23 123 88 108 102 24 19 21 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\APP\Kinetis_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 30 22 18 34 11 20 26 121 23 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 30 22 18 34 11 20 26 121 23 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\ADC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\DAC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\IICV1Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 24 19 34 11 20 26 121 23 123 21 111 30 22 18 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 24 19 34 11 20 26 121 23 123 21 111 30 22 18 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 30 22 18 34 11 20 26 121 23 123 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 18 34 11 20 26 121 23 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 18 34 11 20 26 121 23 123</file>
+        </tool>
+      </inputs>
     </file>
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>

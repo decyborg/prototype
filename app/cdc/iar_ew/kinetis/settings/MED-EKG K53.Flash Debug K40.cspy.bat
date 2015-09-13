@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.general.xcl" --backend -f "C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.general.xcl" --backend -f "C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.general.xcl" "--debug_file=%1" --backend -f "C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.general.xcl" "--debug_file=%1" --backend -f "C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\settings\MED-EKG K53.Flash Debug K40.driver.xcl" 
 
 @echo off 
 :end

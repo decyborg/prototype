@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=1188145573
+Checksum=-719559749
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -27,7 +27,8 @@ MixedMode=1
 [Disassemble mode]
 mode=0
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{C:\Users\Manuel\Documents\Software\prototype\app\common\main_kinetis.c}.275.9" 1 0 0 0 "" 0 "" 0
+Count=1
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""

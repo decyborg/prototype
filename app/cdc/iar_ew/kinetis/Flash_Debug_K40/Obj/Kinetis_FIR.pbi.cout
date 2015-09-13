@@ -1,54 +1,54 @@
-"C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Kinetis_FIR.c"
+"C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Kinetis_FIR.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\common
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\common
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\common\kinetis
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\common\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\source\driver
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\source\driver
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\source\driver\kinetis
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\source\driver\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\source\common
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\source\common
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\source\class
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\source\class
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Med-EKG
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Med-EKG
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\LL_DRIVERS
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\..\..\..\..\app\cdc\iar_ew\kinetis\MED_EKG_FILES\LL_DRIVERS
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\inc\c
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc
+C:\Users\Manuel\Documents\Software\prototype\app\cdc
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\common
+C:\Users\Manuel\Documents\Software\prototype\app\common
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\common\kinetis
+C:\Users\Manuel\Documents\Software\prototype\app\common\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\source\driver
+C:\Users\Manuel\Documents\Software\prototype\source\driver
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\source\driver\kinetis
+C:\Users\Manuel\Documents\Software\prototype\source\driver\kinetis
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\source\common
+C:\Users\Manuel\Documents\Software\prototype\source\common
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\source\class
+C:\Users\Manuel\Documents\Software\prototype\source\class
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Med-EKG
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\MED_EKG_FILES\APP\Med-EKG
 -I
-C:\Users\Manuel\Documents\Software\MED-EKG K53\app\cdc\iar_ew\kinetis\MED_EKG_FILES\LL_DRIVERS
+C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\MED_EKG_FILES\LL_DRIVERS
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

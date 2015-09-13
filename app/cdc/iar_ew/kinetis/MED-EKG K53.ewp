@@ -2062,6 +2062,12 @@
       <file>
         <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\OPAMP.h</name>
       </file>
+      <file>
+        <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\uart.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\MED_EKG_FILES\LL_DRIVERS\uart.h</name>
+      </file>
     </group>
   </group>
   <group>

@@ -36,6 +36,7 @@
 #include "RealTimerCounter.h"
 #include "Wdt_kinetis.h"
 #include "TWR_K50_UI.h"
+#include "uart.h"
 
 extern uint_32 ___VECTOR_RAM[];            //Get vector table that was copied to RAM
 
@@ -260,11 +261,18 @@ static void Init_Sys(void)
         SCB_VTOR = (uint_32)___VECTOR_RAM;
 		
 	NVICICER2|=(1<<9);                     //Clear any pending interrupts on USB
-	NVICISER2|=(1<<9);                     //Enable interrupts from USB module  
+	NVICISER2|=(1<<9);                     //Enable interrupts from USB module 
+        
+        // Configure the TX and RX pins for UART0
+	SIM_SCGC5 |= SIM_SCGC5_PORTD_MASK;
+	PORTD_PCR6 = PORT_PCR_MUX(0x03);
+	PORTD_PCR7 = PORT_PCR_MUX(0x03);
 
     /* SIM Configuration */
 	GPIO_Init();
 	pll_init();
+        uart_init(TERM_PORT, 48000, 115200);
+        send_string("CloverTech", TERM_PORT);
 
     MPU_CESR=0x00;
     
