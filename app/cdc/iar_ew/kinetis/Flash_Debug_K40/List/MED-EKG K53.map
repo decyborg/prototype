@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.40.3.8902/W32 for ARM                 12/Sep/2015  19:25:19
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 13/Sep/2015  20:21:08
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
@@ -75,7 +75,7 @@ __SystemLibrary = DLib
   Initializer bytes  const    0x000001b0   0x218  <for P2 s0>
                             - 0x000003c8   0x218
 
-"P1", part 2 of 2:                        0x3af4
+"P1", part 2 of 2:                        0x3b44
   .text              ro code  0x00000410   0xb2a  usb_dci_kinetis.o [1]
   .rodata            const    0x00000f3a     0x2  usb_descriptor.o [1]
   .text              ro code  0x00000f3c   0x23c  usb_driver.o [1]
@@ -100,35 +100,36 @@ __SystemLibrary = DLib
   .text              ro code  0x000033b4   0x260  HeartRate.o [1]
   .noinit            ro code  0x00003614   0x26a  dsp.o [1]
   Veneer             ro code  0x00003880     0x8  - Linker created -
-  .text              ro code  0x00003888   0x1f8  main_kinetis.o [1]
-  .text              ro code  0x00003a80   0x10a  uart.o [1]
-  .rodata            const    0x00003b8c    0xac  ekg.o [1]
-  .text              ro code  0x00003c38    0x80  IICV1Driver.o [1]
-  .text              ro code  0x00003cb8    0x40  zero_init3.o [4]
-  .rodata            const    0x00003cf8    0x34  usb_framework.o [1]
-  .text              ro code  0x00003d2c    0x2c  low_level_init.o [1]
-  .text              ro code  0x00003d58    0x2c  copy_init3.o [4]
-  .rodata            const    0x00003d84    0x28  usb_framework.o [1]
-  .text              ro code  0x00003dac    0x28  data_init.o [4]
-  .iar.init_table    const    0x00003dd4    0x24  - Linker created -
-  .rodata            const    0x00003df8    0x20  usb_descriptor.o [1]
-  .text              ro code  0x00003e18    0x1a  cmain.o [4]
-  .text              ro code  0x00003e32     0x4  exit.o [3]
-  .text              ro code  0x00003e38     0xa  cexit.o [4]
-  .text              ro code  0x00003e44    0x14  exit.o [5]
-  .rodata            const    0x00003e58    0x14  ekg.o [1]
-  .rodata            const    0x00003e6c    0x14  ekg.o [1]
-  .rodata            const    0x00003e80    0x14  HeartRate.o [1]
-  .rodata            const    0x00003e94    0x14  usb_descriptor.o [1]
-  .rodata            const    0x00003ea8    0x10  usb_descriptor.o [1]
-  .rodata            const    0x00003eb8    0x10  usb_descriptor.o [1]
-  .rodata            const    0x00003ec8    0x10  usb_descriptor.o [1]
-  .rodata            const    0x00003ed8     0xc  main_kinetis.o [1]
-  .text              ro code  0x00003ee4     0xc  cstartup_M.o [4]
-  .rodata            const    0x00003ef0     0x8  Ecg.o [1]
-  .rodata            const    0x00003ef8     0x8  usb_dci_kinetis.o [1]
-  .rodata            const    0x00003f00     0x4  usb_descriptor.o [1]
-                            - 0x00003f04  0x3af4
+  .text              ro code  0x00003888   0x240  main_kinetis.o [1]
+  .text              ro code  0x00003ac8   0x10a  uart.o [1]
+  .rodata            const    0x00003bd4    0xac  ekg.o [1]
+  .text              ro code  0x00003c80    0x80  IICV1Driver.o [1]
+  .text              ro code  0x00003d00    0x40  zero_init3.o [4]
+  .rodata            const    0x00003d40    0x34  usb_framework.o [1]
+  .text              ro code  0x00003d74    0x2c  low_level_init.o [1]
+  .text              ro code  0x00003da0    0x2c  copy_init3.o [4]
+  .rodata            const    0x00003dcc    0x28  usb_framework.o [1]
+  .text              ro code  0x00003df4    0x28  data_init.o [4]
+  .iar.init_table    const    0x00003e1c    0x24  - Linker created -
+  .rodata            const    0x00003e40    0x20  usb_descriptor.o [1]
+  .text              ro code  0x00003e60    0x1a  cmain.o [4]
+  .text              ro code  0x00003e7a     0x4  exit.o [3]
+  .text              ro code  0x00003e80     0xa  cexit.o [4]
+  .text              ro code  0x00003e8c    0x14  exit.o [5]
+  .rodata            const    0x00003ea0    0x14  ekg.o [1]
+  .rodata            const    0x00003eb4    0x14  ekg.o [1]
+  .rodata            const    0x00003ec8    0x14  HeartRate.o [1]
+  .rodata            const    0x00003edc    0x14  usb_descriptor.o [1]
+  .rodata            const    0x00003ef0    0x10  usb_descriptor.o [1]
+  .rodata            const    0x00003f00    0x10  usb_descriptor.o [1]
+  .rodata            const    0x00003f10    0x10  usb_descriptor.o [1]
+  .rodata            const    0x00003f20     0xc  main_kinetis.o [1]
+  .text              ro code  0x00003f2c     0xc  cstartup_M.o [4]
+  .rodata            const    0x00003f38     0x8  Ecg.o [1]
+  .rodata            const    0x00003f40     0x8  main_kinetis.o [1]
+  .rodata            const    0x00003f48     0x8  usb_dci_kinetis.o [1]
+  .rodata            const    0x00003f50     0x4  usb_descriptor.o [1]
+                            - 0x00003f54  0x3b44
 
 "P2":                                     0x4f58
   P2 s0                       0x20000000   0x218  <Init block>
@@ -298,7 +299,7 @@ C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\Flash_Debug_
     dsp.o                           618
     ekg.o                         1 540               213      250
     low_level_init.o                 44
-    main_kinetis.o                  504       76       88        6
+    main_kinetis.o                  576       76       96        6
     uart.o                          266
     usb_cdc.o                     1 472                        164
     usb_cdc_pstn.o                  396                12       25
@@ -309,7 +310,7 @@ C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\Flash_Debug_
     usb_framework.o               1 292                92       51
     wdt_kinetis.o                    24
     -----------------------------------------------------------------------
-    Total:                       14 568       76      991    3 357        5
+    Total:                       14 640       76      999    3 357        5
 
 command line: [2]
     -----------------------------------------------------------------------
@@ -340,7 +341,7 @@ shb_l.a: [5]
     Gaps                             12                 2      488
     Linker created                    8                39   16 384
 ---------------------------------------------------------------------------
-    Grand Total:                 15 028       76    1 032   20 229        5
+    Grand Total:                 15 100       76    1 040   20 229        5
 
 
 *******************************************************************************
@@ -349,9 +350,9 @@ shb_l.a: [5]
 
 Entry                      Address   Size  Type      Object
 -----                      -------   ----  ----      ------
-.iar.init_table$$Base   0x00003dd4          --   Gb  - Linker created -
-.iar.init_table$$Limit  0x00003df8          --   Gb  - Linker created -
-?main                   0x00003e19         Code  Gb  cmain.o [4]
+.iar.init_table$$Base   0x00003e1c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00003e40          --   Gb  - Linker created -
+?main                   0x00003e61         Code  Gb  cmain.o [4]
 ADC0_Init16b            0x0000180d   0x1a  Code  Gb  ADC.o [1]
 ADC0_Read16b            0x00001841   0x22  Code  Gb  ADC.o [1]
 ADC1_Init16b            0x00001827   0x1a  Code  Gb  ADC.o [1]
@@ -359,7 +360,7 @@ ADC1_Read16b            0x00001863   0x22  Code  Gb  ADC.o [1]
 AGC_task                0x000034a5   0xc8  Code  Gb  HeartRate.o [1]
 ActualMeasurement       0x20000f43    0x1  Data  Lc  ekg.o [1]
 AddTimerQ               0x00001905   0x60  Code  Gb  RealTimerCounter_kinetis.o [1]
-AmpGain                 0x00003e6c   0x14  Data  Gb  ekg.o [1]
+AmpGain                 0x00003eb4   0x14  Data  Gb  ekg.o [1]
 Amplitude_value         0x20000f1e    0x2  Data  Gb  HeartRate.o [1]
 Averaged_HR             0x20000f16    0x2  Data  Gb  HeartRate.o [1]
 BeatsPeriod             0x20000f24    0x2  Data  Gb  HeartRate.o [1]
@@ -390,38 +391,38 @@ EcgHeartRateArray       0x20000de0   0x20  Data  Lc  Ecg.o [1]
 EcgHeartRateSum         0x20000efa    0x2  Data  Lc  Ecg.o [1]
 EcgSecondSample         0x20000efe    0x2  Data  Lc  Ecg.o [1]
 EcgSignal               0x20000e78   0x18  Data  Lc  Ecg.o [1]
-EcgStateMachine         0x00003ef0    0x8  Data  Gb  Ecg.o [1]
+EcgStateMachine         0x00003f38    0x8  Data  Gb  Ecg.o [1]
 EcgThirdSample          0x20000f00    0x2  Data  Lc  Ecg.o [1]
 Ecg_DiagnosticModeStartMeasurement
                         0x000015e3   0x38  Code  Gb  Ecg.o [1]
 Ecg_DiagnosticModeStopMeasurement
                         0x00001681   0x12  Code  Gb  Ecg.o [1]
-Ecg_Events              0x00003e58   0x14  Data  Gb  ekg.o [1]
+Ecg_Events              0x00003ea0   0x14  Data  Gb  ekg.o [1]
 Ecg_HeartRate           0x20000f30    0x1  Data  Gb  Ecg.o [1]
 Ecg_Init                0x000015d5    0xe  Code  Gb  Ecg.o [1]
 Ecg_PeriodicTask        0x00001693   0x38  Code  Gb  Ecg.o [1]
 EnableTimerInterrupt    0x000019d7    0xe  Code  Lc  RealTimerCounter_kinetis.o [1]
-ExecuteCommandReq       0x00003b8c   0xac  Data  Gb  ekg.o [1]
+ExecuteCommandReq       0x00003bd4   0xac  Data  Gb  ekg.o [1]
 FTM0_ISR                0x000021b9   0x1c  Code  Gb  Kinetis_FTM.o [1]
 FTM0_Init               0x00002185   0x34  Code  Gb  Kinetis_FTM.o [1]
 Fault                   0x20000ed0    0x4  Data  Gb  main_kinetis.o [1]
 FeedbackSignal          0x20000e60   0x18  Data  Lc  Ecg.o [1]
 FirstSample             0x20000f10    0x2  Data  Gb  HeartRate.o [1]
-GPIO_Init               0x000038ed    0x2  Code  Gb  main_kinetis.o [1]
-HR_AmpGain              0x00003e80   0x14  Data  Gb  HeartRate.o [1]
+GPIO_Init               0x000038f5    0x2  Code  Gb  main_kinetis.o [1]
+HR_AmpGain              0x00003ec8   0x14  Data  Gb  HeartRate.o [1]
 HR_buffer               0x20000eb0    0xc  Data  Gb  HeartRate.o [1]
 HR_buffer_index         0x20000f44    0x1  Data  Gb  HeartRate.o [1]
 HR_calculation          0x00003425   0x80  Code  Gb  HeartRate.o [1]
 HR_periodic_task        0x000033b5   0x70  Code  Gb  HeartRate.o [1]
 HR_watchdog             0x20000f18    0x2  Data  Gb  HeartRate.o [1]
 HeartBeatOcurred        0x20000f33    0x1  Data  Lc  Ecg.o [1]
-ISR_Tracker             0x00003a15    0xc  Code  Gb  main_kinetis.o [1]
-Init_Sys                0x000038ef   0x9a  Code  Lc  main_kinetis.o [1]
+ISR_Tracker             0x00003a4d    0xc  Code  Gb  main_kinetis.o [1]
+Init_Sys                0x000038f7   0xcc  Code  Lc  main_kinetis.o [1]
 IsEcgSignalReady        0x20000f34    0x1  Data  Lc  Ecg.o [1]
 IsHeartRateMode         0x20000f38    0x1  Data  Lc  Ecg.o [1]
 IsNewEcgSampleReady     0x20000f39    0x1  Data  Lc  Ecg.o [1]
 KeyPressSimulationTimerCallback
-                        0x000038c1   0x2c  Code  Lc  main_kinetis.o [1]
+                        0x000038c9   0x2c  Code  Lc  main_kinetis.o [1]
 Max_value               0x20000f1c    0x2  Data  Gb  HeartRate.o [1]
 Min_value               0x2000020e    0x2  Data  Gb  HeartRate.o [1]
 MovingAverage_PushNewValue16b
@@ -433,8 +434,8 @@ PerformControlAlgorithm
 PulseDetectedWatchDog   0x20000f04    0x2  Data  Lc  Ecg.o [1]
 QRSFound                0x20000f31    0x1  Data  Lc  Ecg.o [1]
 RealTimeHeartRate       0x20000ef8    0x2  Data  Lc  Ecg.o [1]
-Region$$Table$$Base     0x00003dd4          --   Gb  - Linker created -
-Region$$Table$$Limit    0x00003df8          --   Gb  - Linker created -
+Region$$Table$$Base     0x00003e1c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00003e40          --   Gb  - Linker created -
 RemoveTimerQ            0x00001965   0x2c  Code  Gb  RealTimerCounter_kinetis.o [1]
 SampleCounter           0x20000f3a    0x1  Data  Gb  Ecg.o [1]
 Sample_compare          0x2000020c    0x2  Data  Gb  HeartRate.o [1]
@@ -442,7 +443,7 @@ Sample_number           0x20000f1a    0x2  Data  Gb  HeartRate.o [1]
 SecondSample            0x20000f12    0x2  Data  Gb  HeartRate.o [1]
 SendGraphDataToPc       0x00001587   0x46  Code  Lc  Ecg.o [1]
 StartKeyPressSimulationTimer
-                        0x000038a7   0x18  Code  Lc  main_kinetis.o [1]
+                        0x000038af   0x18  Code  Lc  main_kinetis.o [1]
 StateIdle               0x000011f9    0x2  Code  Lc  Ecg.o [1]
 StateMeasuring          0x00001417  0x170  Code  Lc  Ecg.o [1]
 TRIAMP1C0_HighMode      0x0000212b   0x14  Code  Gb  OPAMP.o [1]
@@ -586,21 +587,21 @@ _I2C1_S                 0x40067003    0x1  Data  Gb  IICV1Driver.o [1]
 _IICDrvStatus           0x20000ecc    0x4  Data  Gb  IICV1Driver.o [1]
 ___VECTOR_RAM           0x00000000         Data  Gb  cstartup_M.o [1]
 __aeabi_memset          0x00001191         Code  Gb  ABImemset.o [4]
-__cmain                 0x00003e19         Code  Gb  cmain.o [4]
-__exit                  0x00003e45   0x14  Code  Gb  exit.o [5]
+__cmain                 0x00003e61         Code  Gb  cmain.o [4]
+__exit                  0x00003e8d   0x14  Code  Gb  exit.o [5]
 __iar_Memset            0x00001191         Code  Gb  ABImemset.o [4]
 __iar_Memset_word       0x00001199         Code  Gb  ABImemset.o [4]
-__iar_copy_init3        0x00003d59   0x2c  Code  Gb  copy_init3.o [4]
-__iar_data_init3        0x00003dad   0x28  Code  Gb  data_init.o [4]
-__iar_program_start     0x00003ee5         Code  Gb  cstartup_M.o [4]
+__iar_copy_init3        0x00003da1   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x00003df5   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00003f2d         Code  Gb  cstartup_M.o [4]
 __iar_unaligned___aeabi_memcpy
                         0x00001a5d         Code  Gb  ABImemcpy_unaligned.o [4]
 __iar_unaligned___aeabi_memcpy4
                         0x00001a7d         Code  Gb  ABImemcpy_unaligned.o [4]
 __iar_unaligned___aeabi_memcpy8
                         0x00001a7d         Code  Gb  ABImemcpy_unaligned.o [4]
-__iar_zero_init3        0x00003cb9   0x40  Code  Gb  zero_init3.o [4]
-__low_level_init        0x00003d2d   0x2c  Code  Gb  low_level_init.o [1]
+__iar_zero_init3        0x00003d01   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x00003d75   0x2c  Code  Gb  low_level_init.o [1]
 __smlabb                0x00003621         Code  Gb  dsp.o [1]
 __smlabt                0x00003627         Code  Gb  dsp.o [1]
 __smlad                 0x00003639         Code  Gb  dsp.o [1]
@@ -705,10 +706,10 @@ __umaal                 0x000036f9         Code  Gb  dsp.o [1]
 __umlal                 0x000036ed         Code  Gb  dsp.o [1]
 __umull                 0x000036f3         Code  Gb  dsp.o [1]
 __vector_table          0x00000000         Data  Gb  cstartup_M.o [1]
-_call_main              0x00003e25         Code  Gb  cmain.o [4]
-_exit                   0x00003e39         Code  Gb  cexit.o [4]
-_main                   0x00003e2f         Code  Gb  cmain.o [4]
-exit                    0x00003e33    0x4  Code  Gb  exit.o [3]
+_call_main              0x00003e6d         Code  Gb  cmain.o [4]
+_exit                   0x00003e81         Code  Gb  cexit.o [4]
+_main                   0x00003e77         Code  Gb  cmain.o [4]
+exit                    0x00003e7b    0x4  Code  Gb  exit.o [3]
 ext_req_to_host         0x20000e40   0x20  Data  Lc  usb_framework.o [1]
 g_EPn                   0x20000f51    0x1  Data  Lc  usb_driver.o [1]
 g_EPn_max               0x20000f52    0x1  Data  Lc  usb_driver.o [1]
@@ -736,7 +737,7 @@ g_device_state_before_suspend
 g_dte_present           0x20000f4c    0x1  Data  Lc  usb_cdc_pstn.o [1]
 g_dte_status            0x20000f4d    0x1  Data  Lc  usb_cdc_pstn.o [1]
 g_framework_callback    0x20000ef0    0x4  Data  Lc  usb_framework.o [1]
-g_languages             0x00003e94   0x14  Data  Gb  usb_descriptor.o [1]
+g_languages             0x00003edc   0x14  Data  Gb  usb_descriptor.o [1]
 g_line_coding           0x20000200    0x8  Data  Lc  usb_descriptor.o [1]
 g_other_req_callback    0x20000ef4    0x4  Data  Lc  usb_framework.o [1]
 g_pstn_callback         0x20000edc    0x4  Data  Lc  usb_cdc_pstn.o [1]
@@ -744,19 +745,19 @@ g_recv_size             0x20000f41    0x1  Data  Lc  ekg.o [1]
 g_send_size             0x20000f42    0x1  Data  Lc  ekg.o [1]
 g_serial_state_buf      0x200001f4    0xc  Data  Lc  usb_cdc_pstn.o [1]
 g_setup_pkt             0x20000ec4    0x8  Data  Lc  usb_framework.o [1]
-g_standard_request      0x00003cf8   0x34  Data  Gb  usb_framework.o [1]
-g_std_desc_size         0x00003eb8   0x10  Data  Gb  usb_descriptor.o [1]
-g_std_descriptors       0x00003df8   0x20  Data  Gb  usb_descriptor.o [1]
+g_standard_request      0x00003d40   0x34  Data  Gb  usb_framework.o [1]
+g_std_desc_size         0x00003f00   0x10  Data  Gb  usb_descriptor.o [1]
+g_std_descriptors       0x00003e40   0x20  Data  Gb  usb_descriptor.o [1]
 g_std_framework_data    0x20000f2e    0x2  Data  Lc  usb_framework.o [1]
-g_string_desc_size      0x00003f00    0x4  Data  Gb  usb_descriptor.o [1]
-g_string_descriptors    0x00003ec8   0x10  Data  Gb  usb_descriptor.o [1]
+g_string_desc_size      0x00003f50    0x4  Data  Gb  usb_descriptor.o [1]
+g_string_descriptors    0x00003f10   0x10  Data  Gb  usb_descriptor.o [1]
 g_trf_direction         0x20000214    0x1  Data  Lc  usb_dci_kinetis.o [1]
 g_uart_bitmap           0x20000ee0    0x4  Data  Lc  usb_cdc_pstn.o [1]
 g_usb_CB                0x20000d18   0x60  Data  Lc  usb_driver.o [1]
 g_usb_component_status  0x20000e90   0x10  Data  Lc  usb_driver.o [1]
 g_usb_ep_status         0x20000ea0   0x10  Data  Lc  usb_driver.o [1]
 g_valid_config_values   0x00000f3a    0x2  Data  Gb  usb_descriptor.o [1]
-g_validate_request      0x00003d84   0x28  Data  Gb  usb_framework.o [1]
+g_validate_request      0x00003dcc   0x28  Data  Gb  usb_framework.o [1]
 g_vendor_req_callback   0x20000ed8    0x4  Data  Lc  usb_cdc.o [1]
 gi32ADC_Buffer          0x20000a40   0xcc  Data  Gb  Kinetis_FIR.o [1]
 gi32FIR_Coeficients1    0x20000000   0xd0  Data  Gb  Kinetis_FIR.o [1]
@@ -769,15 +770,15 @@ i_index                 0x20000f3b    0x1  Data  Gb  Ecg.o [1]
 j_index                 0x20000f3c    0x1  Data  Gb  Ecg.o [1]
 kbi_stat                0x20000f4b    0x1  Data  Gb  main_kinetis.o [1]
 kbi_stat_sim            0x20000f4a    0x1  Data  Gb  main_kinetis.o [1]
-main                    0x00003889   0x1e  Code  Gb  main_kinetis.o [1]
+main                    0x00003889   0x26  Code  Gb  main_kinetis.o [1]
 median_array            0x20000e20   0x20  Data  Gb  Ecg.o [1]
 median_val              0x20000f08    0x2  Data  Gb  Ecg.o [1]
 opamp1_gp_mode          0x00002111   0x1a  Code  Gb  OPAMP.o [1]
 opamp2_noninverting_mode
                         0x00002153   0x12  Code  Gb  OPAMP.o [1]
-pll_init                0x00003989   0x88  Code  Lc  main_kinetis.o [1]
+pll_init                0x000039c3   0x88  Code  Lc  main_kinetis.o [1]
 samplesBetweenPulses    0x20000f02    0x2  Data  Lc  Ecg.o [1]
-send_string             0x00003b6f   0x1c  Code  Gb  uart.o [1]
+send_string             0x00003bb7   0x1c  Code  Gb  uart.o [1]
 set_sys_dividers        0x200000d1   0x4c  Code  Gb  main_kinetis.o [1]
 start_app               0x20000f3f    0x1  Data  Lc  ekg.o [1]
 start_transactions      0x20000f40    0x1  Data  Lc  ekg.o [1]
@@ -785,14 +786,14 @@ temp_var                0x20000f06    0x2  Data  Gb  Ecg.o [1]
 u16Debounce             0x20000f0c    0x2  Data  Lc  ekg.o [1]
 u8Gain_index            0x20000210    0x1  Data  Lc  ekg.o [1]
 u8HR_Gain_index         0x20000211    0x1  Data  Gb  HeartRate.o [1]
-uart_init               0x00003a81   0xc8  Code  Gb  uart.o [1]
-uart_putchar            0x00003b65    0xa  Code  Gb  uart.o [1]
-usb_desc_ep             0x00003ea8   0x10  Data  Gb  usb_descriptor.o [1]
+uart_init               0x00003ac9   0xc8  Code  Gb  uart.o [1]
+uart_putchar            0x00003bad    0xa  Code  Gb  uart.o [1]
+usb_desc_ep             0x00003ef0   0x10  Data  Gb  usb_descriptor.o [1]
 vfnEnable_AFE           0x00002041   0x2e  Code  Gb  ekg.o [1]
 vfnFilter_Periodic_Task
                         0x000029e9   0xce  Code  Gb  Kinetis_FIR.o [1]
 vfnHRSamplingRoutine    0x0000356d   0x5a  Code  Gb  HeartRate.o [1]
-vfnIICV1Interrupt       0x00003c39   0x74  Code  Gb  IICV1Driver.o [1]
+vfnIICV1Interrupt       0x00003c81   0x74  Code  Gb  IICV1Driver.o [1]
 
 
 [1] = C:\Users\Manuel\Documents\Software\prototype\app\cdc\iar_ew\kinetis\Flash_Debug_K40\Obj
@@ -801,9 +802,9 @@ vfnIICV1Interrupt       0x00003c39   0x74  Code  Gb  IICV1Driver.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  15 028 bytes of readonly  code memory
+  15 100 bytes of readonly  code memory
       76 bytes of readwrite code memory
-   1 032 bytes of readonly  data memory
+   1 040 bytes of readonly  data memory
   20 229 bytes of readwrite data memory (+ 5 absolute)
 
 Errors: none

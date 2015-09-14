@@ -116,13 +116,13 @@ void main(void)
 #endif
     (void)TestApp_Init(); /* Initialize the USB Test Application */
     StartKeyPressSimulationTimer();
-    
+
     while(TRUE)
     {
     	Watchdog_Reset();
        /* Call the application task */
        TestApp_Task();
-       
+       send_string("Test\n", BL_PORT);
     }
 }
 
@@ -267,12 +267,19 @@ static void Init_Sys(void)
 	SIM_SCGC5 |= SIM_SCGC5_PORTD_MASK;
 	PORTD_PCR6 = PORT_PCR_MUX(0x03);
 	PORTD_PCR7 = PORT_PCR_MUX(0x03);
+        
+        // Configure the TX and RX pins for UART4
+	SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;
+	PORTC_PCR16 = PORT_PCR_MUX(0x03);
+	PORTC_PCR17 = PORT_PCR_MUX(0x03);
 
     /* SIM Configuration */
 	GPIO_Init();
 	pll_init();
         uart_init(TERM_PORT, 48000, 115200);
         send_string("CloverTech", TERM_PORT);
+        uart_init(BL_PORT, 48000, 9600);
+        send_string("CloverTech", BL_PORT);
 
     MPU_CESR=0x00;
     

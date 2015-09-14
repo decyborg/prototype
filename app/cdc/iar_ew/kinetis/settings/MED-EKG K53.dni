@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=-719559749
+Checksum=-1392198008
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -27,8 +27,10 @@ MixedMode=1
 [Disassemble mode]
 mode=0
 [Breakpoints]
-Bp0=_ "STD_CODE" "{C:\Users\Manuel\Documents\Software\prototype\app\common\main_kinetis.c}.275.9" 1 0 0 0 "" 0 "" 0
-Count=1
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Ecg.c}.287.4" 1 0 0 0 "" 0 "" 0
+Bp1=_ "STD_CODE" "{C:\Users\Manuel\Documents\Software\prototype\app\common\main_kinetis.c}.281.9" 1 0 0 0 "" 0 "" 0
+Bp2=_ "STD_CODE" "{C:\Users\Manuel\Documents\Software\prototype\app\common\main_kinetis.c}.272.2" 1 0 0 0 "" 0 "" 0
+Count=3
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""

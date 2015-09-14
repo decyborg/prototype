@@ -8,6 +8,7 @@
 #ifndef __UART_H__
 #define __UART_H__
 #define TERM_PORT UART0_BASE_PTR
+#define BL_PORT UART3_BASE_PTR
 /********************************************************************/
 
 void uart_init (UART_MemMapPtr, int, int);

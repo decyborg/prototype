@@ -60,6 +60,7 @@
 
 //#define SEND_SINE_WAVE
 
+//#define SERIAL_TEST
 /*****************************************************************************
  * Local Types - None
  *****************************************************************************/
@@ -310,6 +311,10 @@ void TestApp_Init(void)
 	#if (defined _MCF51MM256_H) || (defined _MCF51JE256_H)
      usb_int_en();
     #endif
+
+#if (defined SERIAL_TEST)  /* Start measurement if Serial connection is used */
+EcgDiagnosticModeStartMeasurementReq();
+#endif
 }
 
 /******************************************************************************
@@ -327,6 +332,7 @@ void TestApp_Init(void)
  *****************************************************************************/
 void TestApp_Task(void)
 {
+
         /* call the periodic task function */
         USB_Class_CDC_Periodic_Task();
         
