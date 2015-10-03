@@ -630,10 +630,14 @@ void EcgDiagnosticModeNewDataReadyInd(void)
                     gu16FIR_Data[i-1] = gu16FIR_Data[i];
                   
                   /* Copy buffer normaly */
-                        /* Send data over bluetooth */
-                        uart_putchar(TERM_PORT, 'C');
+                        /* Send data over terminal */
+                       /* uart_putchar(TERM_PORT, 'C');
                         uart_putchar(TERM_PORT, (UINT8)(gu16FIR_Data[i-1]>>8));
-                        uart_putchar(TERM_PORT, (UINT8)(gu16FIR_Data[i-1]&0x00FF));
+                        uart_putchar(TERM_PORT, (UINT8)(gu16FIR_Data[i-1]&0x00FF));*/
+                        /* Send data over bluetooth */
+                        uart_putchar(BL_PORT, 'C');
+                        uart_putchar(BL_PORT, (UINT8)(gu16FIR_Data[i-1]>>8));
+                        uart_putchar(BL_PORT, (UINT8)(gu16FIR_Data[i-1]&0x00FF));
                         /* Copy data to buffer */
 			g_curr_send_buf[g_send_size++] = (UINT8)(gu16FIR_Data[i-1]>>8);	//copy ECG data to OutBuffer
 			g_curr_send_buf[g_send_size++] = (UINT8)(gu16FIR_Data[i-1]&0x00FF); /* tag */

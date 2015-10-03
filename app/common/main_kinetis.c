@@ -259,9 +259,10 @@ static void Init_Sys(void)
 	pll_init();
         uart_init(TERM_PORT, 48000, 115200);
         send_string("CloverTech", TERM_PORT);
-        uart_init(BL_PORT, 48000, 9600);
+        uart_init(BL_PORT, 48000, 115200);
         send_string("CloverTech", BL_PORT);
-
+        //configure_BL();
+        
     MPU_CESR=0x00;
     
     /************* USB Part **********************/

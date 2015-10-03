@@ -137,4 +137,9 @@ void send_string(char string[], UART_MemMapPtr channel){
 		uart_putchar (channel, string[ch]);
 	}
 }
+
+/* Interrupt handler routine for BL commands */
+void UART3_IRQHandler(void){
+
+}
 /********************************************************************/

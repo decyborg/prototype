@@ -6,5 +6,6 @@
 
 /* Prototypes */
 void Send_Data_BL(unsigned char* g_curr_send_buf, unsigned char size);
+void configure_BL(void);
 
 #endif

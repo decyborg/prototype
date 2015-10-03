@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=-970262364
+Checksum=-1960425902
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -26,6 +26,12 @@ ShowArgs=0
 MixedMode=1
 [array_types]
 Fmt0=uint_8[120]	3	0
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Bluetooth.c}.10.3" 0 0 0 0 "" 0 "" 0
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c}.644.25" 1 0 0 0 "" 0 "" 0
+Count=2
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -33,12 +39,6 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Disassemble mode]
-mode=0
-[Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Bluetooth.c}.10.3" 0 0 0 0 "" 0 "" 0
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c}.640.25" 1 0 0 0 "" 0 "" 0
-Count=2
 [Aliases]
 Count=0
 SuppressDialog=0
