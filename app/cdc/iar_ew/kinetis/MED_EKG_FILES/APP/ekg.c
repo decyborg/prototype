@@ -36,29 +36,9 @@
 #include "Kinetis_FIR.h"
 #include "Kinetis_FTM.h" 
 
-#if (defined _MCF51MM256_H) || (defined _MCF51JE256_H)
-#include "exceptions.h"
-#endif
-
-#if (defined(_MC9S08MM128_H))
-#define DEBOUNCE_TIME 10000
-#endif
-#if (defined _MCF51MM256_H)
-#define DEBOUNCE_TIME 25000
-#endif
 #if (defined MCU_MK53N512CMD100)
 #define DEBOUNCE_TIME 50000
 #endif
-
-
-/* skip the inclusion in dependency state */
-#ifndef __NO_SETJMP
-	#include <stdio.h>
-#endif
-//#include <stdlib.h>
-//#include <string.h>
-
-//#define SEND_SINE_WAVE
 
 //#define SERIAL_TEST
 /*****************************************************************************
@@ -93,10 +73,6 @@ static void EcgDiagnosticModeStopMeasurementReq(void);
 static void EcgDiagnosticModeNewDataReadyInd(void);
 
 void vfnEnable_AFE (void);
-
-#ifdef SEND_SINE_WAVE
-static void TimerSendDummyData_Event(void);
-#endif
 
 /*****************************************************************************
  * Constant and Macro's - None
@@ -219,7 +195,7 @@ static volatile boolean start_app = FALSE;
 static volatile boolean start_transactions = FALSE;
 /* Receive Buffer */
 static uint_8 g_curr_recv_buf[DATA_BUFF_SIZE];
-/* Send Buffer */
+/* Send Buffer */ /* first byte status, second ERR_SIGNAL, third length of data, data*/
 static uint_8 g_curr_send_buf[DATA_BUFF_SIZE];
 /* Receive Data Size */
 static uint_8 g_recv_size;
@@ -286,11 +262,6 @@ void TestApp_Init(void)
 #endif
       
     Ecg_Init();	
-
-#ifdef SEND_SINE_WAVE
-    TimerSendDummyData.msCount = 64;
-	  TimerSendDummyData.pfnTimerCallback = TimerSendDummyData_Event;
-#endif
     /*******************************/
      
     g_recv_size = 0;
@@ -457,6 +428,7 @@ static void Virtual_Com_Send_Serial_Data(void)
         }
         
         status = USB_Class_CDC_Interface_DIC_Send_Data(CONTROLLER_ID, &g_curr_send_buf[0], size);
+        //Send_Data_BL(g_curr_send_buf, size); /* Tag modification */
         
         if(status != USB_OK)
         {
@@ -609,67 +581,24 @@ void EcgDiagnosticModeStartMeasurementReq(void)
 	}
 
 }
-void EcgDiagnosticModeStopMeasurementReq(void)
-{
-	if (ActualMeasurement == ECG_MEASUREMENT)
-	{			
-
-#ifdef SEND_SINE_WAVE
-		RemoveTimerQ(TimerSendDummyDataIndex);		
-#else
-	#ifdef ECG_DSC
-		EcgDsc_DiagnosticModeStopMeasurement();
-		Ecg_DiagnosticModeStopMeasurement();
-	#else
-		Ecg_DiagnosticModeStopMeasurement();
-	#endif
-#endif
-		
-		g_curr_send_buf[g_send_size++] = CFM;
-		g_curr_send_buf[g_send_size++] = ECG_DIAGNOSTIC_MODE_STOP_MEASUREMENT;
-		g_curr_send_buf[g_send_size++] = 0;	//data bytes
+void EcgDiagnosticModeStopMeasurementReq(void){
+  
+	if (ActualMeasurement == ECG_MEASUREMENT){			
+            Ecg_DiagnosticModeStopMeasurement();
+            g_curr_send_buf[g_send_size++] = CFM;
+            g_curr_send_buf[g_send_size++] = ECG_DIAGNOSTIC_MODE_STOP_MEASUREMENT;
+            g_curr_send_buf[g_send_size++] = 0;	//data bytes
 				
-		Virtual_Com_Send_Serial_Data();
-		ActualMeasurement = NO_MEASUREMENT;
+            Virtual_Com_Send_Serial_Data();
+            ActualMeasurement = NO_MEASUREMENT;
 	}
 }
+
 void EcgDiagnosticModeNewDataReadyInd(void)
 {
 	static UINT16 IdNumber = 0;
 
-#ifdef ECG_DSC
-	if (ActualMeasurement == ECG_MEASUREMENT)
-	{		
-		UINT8 i=0;
-	
-                
-		//Send indication
-		g_curr_send_buf[g_send_size++] = IND;
-		g_curr_send_buf[g_send_size++] = ECG_DIAGNOSTIC_MODE_NEW_DATA_READY;
-		g_curr_send_buf[g_send_size++] = DATA_LENGTH_FROM_DSC-1;				//data from DSC (64) + packetID
-		
-		g_curr_send_buf[g_send_size++] = (UINT8) (IdNumber >> 8);
-		g_curr_send_buf[g_send_size++] = (UINT8) (IdNumber & 0x00FF);
-		
-		IdNumber++;
-				
-		//copy data from DSC to outbuffer
-		i = DATA_START_POSITION;
-		
-		while (i<DATA_END_POSITION)
-		{
-			g_curr_send_buf[g_send_size++] = DataFromDsc[i+1];	//swap data bytes
-			g_curr_send_buf[g_send_size++] = DataFromDsc[i];
-			i+=2;
-		}
-		
-		g_curr_send_buf[g_send_size++] = EcgDsc_HeartRate;
-		
-		//send data
-		Virtual_Com_Send_Serial_Data();
-	}
-        
-#elif (defined ECG_FIR)
+#if (defined ECG_FIR)
         
          if (ActualMeasurement == ECG_MEASUREMENT && gu8FilterDataReady)
 	{		
@@ -701,8 +630,13 @@ void EcgDiagnosticModeNewDataReadyInd(void)
                     gu16FIR_Data[i-1] = gu16FIR_Data[i];
                   
                   /* Copy buffer normaly */
+                        /* Send data over bluetooth */
+                        uart_putchar(TERM_PORT, 'C');
+                        uart_putchar(TERM_PORT, (UINT8)(gu16FIR_Data[i-1]>>8));
+                        uart_putchar(TERM_PORT, (UINT8)(gu16FIR_Data[i-1]&0x00FF));
+                        /* Copy data to buffer */
 			g_curr_send_buf[g_send_size++] = (UINT8)(gu16FIR_Data[i-1]>>8);	//copy ECG data to OutBuffer
-			g_curr_send_buf[g_send_size++] = (UINT8)(gu16FIR_Data[i-1]&0x00FF);
+			g_curr_send_buf[g_send_size++] = (UINT8)(gu16FIR_Data[i-1]&0x00FF); /* tag */
                         i--;
 		}
 		
@@ -745,63 +679,6 @@ void EcgDiagnosticModeNewDataReadyInd(void)
 	}
 #endif
 }
-
-
-#ifdef SEND_SINE_WAVE
-//this is the timer event for sending a dummy sine wave
-
-void TimerSendDummyData_Event(void)
-{
-	static const UINT16 SinX[] = 
-	{
-		1250, 1349, 1448, 1545, 1640, 1733, 1823, 1910, 1992, 2069, 2142, 2208, 2269, 2323, 2371, 2411, 2444, 2470, 2488, 2498, 2500, 2494, 2481, 2459, 2430, 2394, 2350, 2300, 2243, 2179, 2110, 2036, 1956, 1872, 1784, 1693, 1598, 1502, 1404, 1305, 1206, 1107, 1009, 912, 818, 726, 638, 553, 473, 398, 328, 264, 206, 155, 111, 73, 44, 21, 7, 0, 2, 11, 28, 53, 85, 124, 171, 225, 284, 350, 422, 499, 581, 667, 756, 849, 944, 1041, 1140, 1239
-	};
-
-	#define SIN_X_LAST_ELEMENT 	79
-	static const UINT8 EcgBufferSize = 64;
-	static const UINT8 SinXTimerPeriod	= 64;
-
-
-
-
-	if (ActualMeasurement == ECG_MEASUREMENT)
-	{		
-		static UINT8 SinXArrayActualElement = 0;
-
-		//Send indication
-		g_curr_send_buf[g_send_size++] = IND;
-		g_curr_send_buf[g_send_size++] = ECG_DIAGNOSTIC_MODE_NEW_DATA_READY;
-		g_curr_send_buf[g_send_size++] = EcgBufferSize + 2;				//data bytes
-		
-		g_curr_send_buf[g_send_size++] = (UINT8) (PacketIdNumber >> 8);
-		g_curr_send_buf[g_send_size++] = (UINT8) (PacketIdNumber & 0x00FF);
-		
-		PacketIdNumber++;
-		
-		
-		while (g_send_size < (EcgBufferSize + DATA_PACKET + 2))
-		{
-			g_curr_send_buf[g_send_size++] = SinX[SinXArrayActualElement] >> 8;		
-			g_curr_send_buf[g_send_size++] = SinX[SinXArrayActualElement] & 0x00FF;
-			
-			if (SinXArrayActualElement == SIN_X_LAST_ELEMENT)
-			{
-				SinXArrayActualElement = 0;
-			}
-			else
-			{
-				SinXArrayActualElement++;
-			}
-		}
-
-		Virtual_Com_Send_Serial_Data();
-		
-		TimerSendDummyDataIndex = AddTimerQ(&TimerSendDummyData);
-	}	
-	
-}
-#endif
-
 
 void SWdelay(void)
 {

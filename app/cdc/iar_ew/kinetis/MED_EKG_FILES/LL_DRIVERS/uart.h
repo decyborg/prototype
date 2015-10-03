@@ -7,6 +7,8 @@
 
 #ifndef __UART_H__
 #define __UART_H__
+#include "derivative.h"
+   
 #define TERM_PORT UART0_BASE_PTR
 #define BL_PORT UART3_BASE_PTR
 /********************************************************************/

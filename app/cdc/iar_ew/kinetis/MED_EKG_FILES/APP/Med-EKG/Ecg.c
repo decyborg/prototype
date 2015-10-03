@@ -90,9 +90,6 @@ static void StateIdle(void)
 #define FEW_CORRECTION   19   //0.015V -> with 3.3 gain, it adds about 0.05V     
 #define MORE_CORRECTION  38   //0.030V -> with 3.3 gain, it adds about 0.10V  
 #define MUCH_CORRECTION  76   //0.060V -> with 3.3 gain, it adds about 0.20V
-//#define FEW_CORRECTION   38   //0.03V -> with 3.3 gain, it adds about 0.1V
-//#define MORE_CORRECTION  114  //0.09V -> with 3.3 gain, it adds about 0.3V
-//#define MUCH_CORRECTION  190  //0.16V -> with 3.3 gain, it adds about 0.5V
 
 UINT8 SampleCounter = 0, i_index, j_index;
 UINT16 median_array[SAMPLES_NUMBER], temp_var, median_val;
@@ -207,8 +204,6 @@ static void StateMeasuring(void)
 		}
 
 		PerformControlAlgorithm();
-
-#ifndef ECG_DSC
                 
                 
 		samplesBetweenPulses++; 		//increment sample sampleCounter between pulses
@@ -279,15 +274,10 @@ static void StateMeasuring(void)
 			samplesBetweenPulses = 0;
 		}
 
-
-		//#endif
-
 		if (!IsHeartRateMode)
 		{
 			SendGraphDataToPc();
 		}
-
-#endif
 	}
 }
 

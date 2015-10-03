@@ -1982,6 +1982,12 @@
         <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\AverageFilter.h</name>
       </file>
       <file>
+        <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Bluetooth.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\Bluetooth.h</name>
+      </file>
+      <file>
         <name>$PROJ_DIR$\MED_EKG_FILES\APP\dsp.h</name>
       </file>
       <file>
@@ -1992,12 +1998,6 @@
       </file>
       <file>
         <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\ECG.h</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\MED_EKG_FILES\APP\Med-EKG\EcgDsc.h</name>
       </file>
       <file>
         <name>$PROJ_DIR$\MED_EKG_FILES\APP\ekg.c</name>

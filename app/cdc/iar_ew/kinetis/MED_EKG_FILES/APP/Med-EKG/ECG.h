@@ -2,20 +2,17 @@
 #define _ECG
 
 //the following defines are mutually exclusive, if none of them is defined, ECG will function with MCU
-//#define SEND_SINE_WAVE		//uncomment this to send a dummy sine-wave
-//#define ECG_DSC				//uncomment this to use the DSC
 #define ECG_FIR                         //uncomment this to use the FIR Filter 
 
-//#include <hidef.h> /* for EnableInterrupts macro */
-//#include "derivative.h" /* include peripheral declarations */
 #include "derivative.h"
 #include "PublicTypes.h"
 #include "ADC.h"
 #include "AverageFilter.h"
 #include "RealTimerCounter.h"
 #include "DAC.h"
+#include "Bluetooth.h"
 
-#define ECG_SAMPLING_PERIOD				2   // in ms
+#define ECG_SAMPLING_PERIOD			2   // in ms
 
 #define	ADC_CHANNEL_FEEDBACK_SIGNAL		0	//baseline (instrumentation amplification output) signal
 #define	ADC_CHANNEL_ECG_SIGNAL			0	//ecg signal channel
@@ -26,12 +23,7 @@
 
 
 #define ECG_DATA_BUFFER_LENGTH	64
-
-#ifdef ECG_DSC
-#define HR_SLOPE_THRESHOLD     2200
-#else
 #define HR_SLOPE_THRESHOLD     1000
-#endif
 
 #define MAX_TIME_WITHOUT_PULSES		(5000/ECG_SAMPLING_PERIOD)	//time in ms/ECG_SAMPLING_PERIOD
 
@@ -60,4 +52,4 @@ typedef enum
 } Ecg_Event_e;
 
 
-#endif //_ECG
+#endif
