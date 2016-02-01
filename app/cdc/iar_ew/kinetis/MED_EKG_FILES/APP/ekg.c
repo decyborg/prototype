@@ -68,9 +68,9 @@ static void Virtual_Com_Recv_Serial_Data(void);
 
 static void Virtual_Com_Send_Serial_Data(void);
 
-static void EcgDiagnosticModeStartMeasurementReq(void);
 static void EcgDiagnosticModeStopMeasurementReq(void);
 static void EcgDiagnosticModeNewDataReadyInd(void);
+static void EcgDiagnosticModeStartMeasurementReq(void);
 
 void vfnEnable_AFE (void);
 
@@ -306,6 +306,17 @@ void TestApp_Task(void)
 
         /* call the periodic task function */
         USB_Class_CDC_Periodic_Task();
+        
+        /* Check start/stop command via serial */
+        if(UART_S1_REG(BL_PORT) & UART_S1_RDRF_MASK){
+            char tmp;
+            tmp = UART_D_REG(BL_PORT);
+            if(tmp == 'b'){                     /* Begin flag */
+                EcgDiagnosticModeStartMeasurementReq();
+            } else if (tmp == 's'){             /* Stop flag */
+                EcgDiagnosticModeStopMeasurementReq();
+            }
+        }
         
 #if (defined ECG_DSC)
         EcgDsc_PeriodicTask();

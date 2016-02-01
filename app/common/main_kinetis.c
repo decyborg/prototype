@@ -19,6 +19,7 @@
 #include "Wdt_kinetis.h"
 #include "TWR_K50_UI.h"
 #include "uart.h"
+#include "ekg.h"
 
 extern uint_32 ___VECTOR_RAM[];            //Get vector table that was copied to RAM
 
@@ -64,6 +65,7 @@ static void wdog_disable(void);
 static void StartKeyPressSimulationTimer(void);
 static void KeyPressSimulationTimerCallback(void);
 
+
 /****************************************************************************
  * Global Variables
  ****************************************************************************/
@@ -92,13 +94,14 @@ unsigned int Fault;
 void main(void)
 {   
     Init_Sys();        /* initial the system */
-    
+    asm(" CPSIE i");
 #if MAX_TIMER_OBJECTS
     (void)TimerQInitialize(0);
 #endif
     (void)TestApp_Init(); /* Initialize the USB Test Application */
     StartKeyPressSimulationTimer();
-
+    
+    //EcgDiagnosticModeStartMeasurementReq();
     while(TRUE)
     {
     	Watchdog_Reset();
@@ -249,7 +252,7 @@ static void Init_Sys(void)
 	PORTD_PCR6 = PORT_PCR_MUX(0x03);
 	PORTD_PCR7 = PORT_PCR_MUX(0x03);
         
-        // Configure the TX and RX pins for UART4
+        // Configure the TX and RX pins for UART3
 	SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;
 	PORTC_PCR16 = PORT_PCR_MUX(0x03);
 	PORTC_PCR17 = PORT_PCR_MUX(0x03);
@@ -261,7 +264,7 @@ static void Init_Sys(void)
         send_string("CloverTech", TERM_PORT);
         uart_init(BL_PORT, 48000, 115200);
         send_string("CloverTech", BL_PORT);
-        //configure_BL();
+        //configure_BL(); /* used just once to configure the BL module */
         
     MPU_CESR=0x00;
     
